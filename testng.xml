@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test">
+    <test verbose="1" preserve-order="true" name="/Users/weimeng/IdeaProjects/mavenDemo/AldenTestNg">
+        <groups>
+            <dependencies>
+                <group name="group1" depends-on="">
+                    <classes>
+                        <class name="com.alden.testlogin.TestLogin">
+                            <methods>
+                                <include name="testLogin"></include>
+<!--                                <include name="testLogin1"></include>-->
+<!--                                <include name="testLogin2"></include>-->
+                            </methods>
+                        </class>
+                    </classes>
+                </group>
+            </dependencies>
+        </groups>
+    </test>
+</suite>
